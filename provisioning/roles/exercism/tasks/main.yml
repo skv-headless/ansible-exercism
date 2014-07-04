@@ -1,0 +1,8 @@
+---
+
+- name: install exercism
+  action: shell curl -O http://cli.exercism.io/install
+
+- name: make install executable
+  action: shell chmod +x install
+
