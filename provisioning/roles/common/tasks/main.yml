@@ -3,3 +3,6 @@
 - name: install curl
   sudo: true
   apt: name=curl update_cache=yes
+
+- name: copy profile
+  copy: src=profile dest=/home/vagrant/.profile
